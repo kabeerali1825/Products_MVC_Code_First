@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container text-center my-5">
+    <h1 class="display-4 text-primary">Welcome to Our Product Management System!</h1>
+    <p class="lead text-secondary">Explore and manage your products effortlessly.</p>
+    <a class="btn btn-info btn-lg" href="https://learn.microsoft.com/aspnet/core" target="_blank">Learn More</a>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Product Creation</h5>
+                <p class="card-text">Easily create new products with detailed information.</p>
+                <a class="btn btn-primary" asp-controller="Product" asp-action="Create">Create Product</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Manage Products</h5>
+                <p class="card-text">View, edit, or delete your existing products.</p>
+                <a class="btn btn-primary" asp-controller="Product" asp-action="Index">Manage Products</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Documentation</h5>
+                <p class="card-text">Check out the official documentation for more resources.</p>
+                <a class="btn btn-primary" href="https://learn.microsoft.com/aspnet/core" target="_blank">View Docs</a>
+            </div>
+        </div>
+    </div>
+</div>
